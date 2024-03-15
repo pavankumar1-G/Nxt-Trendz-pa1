@@ -1,0 +1,103 @@
+/* Write your CSS code here */
+.login-form-container {
+  padding: 15px;
+}
+.logo-image-container {
+  text-align: center;
+}
+.webSite-mobile-logo {
+  height: 40px;
+  margin-bottom: 30px;
+}
+.login-image {
+  width: 95%;
+  margin-bottom: 30px;
+}
+.form {
+}
+.webSite-desktop-logo {
+  display: none;
+}
+.username-input-container {
+  display: flex;
+  flex-direction: column;
+}
+.password-input-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-label {
+  color: #475569;
+  font-weight: 900;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.user-input {
+  background-color: #d7dfe9;
+  border-width: 0;
+  border-radius: 5px;
+  width: 95%;
+  height: 35px;
+  padding-left: 20px;
+  font-size: 15px;
+  outline: none;
+  margin-bottom: 15px;
+}
+.login-button {
+  width: 95%;
+  border-radius: 5px;
+  border-width: 0;
+  background-color: #0b69ff;
+  height: 35px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.error-msg {
+  color: #ff0b37;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .webSite-desktop-logo {
+    display: inline;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  .webSite-mobile-logo {
+    display: none;
+  }
+  .login-image {
+    width: 400px;
+    margin-right: 20px;
+  }
+  .form {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 5px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; */
+    padding: 15px;
+    width: 350px;
+  }
+  .input-label {
+    font-size: 18px;
+    margin-left: 0;
+  }
+  .logo-container {
+    text-align: center;
+  }
+  .error-msg {
+    font-size: 20px;
+  }
+}

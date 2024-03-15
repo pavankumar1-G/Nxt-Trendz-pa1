@@ -1,0 +1,106 @@
+/* Write your CSS code here */
+.header-logo {
+  height: 30px;
+}
+.logout-icon {
+  height: 20px;
+  width: 20px;
+}
+.logout-btn {
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+}
+.nav-header-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nav-content {
+}
+.website-logo-logout-btn-menu-lg-container {
+  display: none;
+}
+.website-logo-logout-btn-sm-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+}
+.nav-menu-icon-item {
+  list-style-type: none;
+}
+.menu-icons {
+  height: 25px;
+  width: 25px;
+}
+.nav-sm-menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 98%;
+  padding-left: 0;
+  padding: 20px;
+}
+.nav-sm-menu {
+  background-color: #e6f6ff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo-logout-btn-sm-container {
+    display: none;
+  }
+  .nav-sm-menu {
+    display: none;
+  }
+  .website-logo-logout-btn-menu-lg-container {
+    display: inline;
+  }
+  .website-logo-logout-btn-menu-lg-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    padding-left: 30px;
+  }
+  .nav-lg-menu-list {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+  }
+  .nav-menu-item {
+    list-style-type: none;
+    margin: 15px;
+    font-size: 25px;
+    color: #64748b;
+    font-weight: bold;
+  }
+  .header-logo {
+    height: 50px;
+  }
+  .logout-button {
+    background-color: #0b69ff;
+    border-radius: 5px;
+    height: 40px;
+    width: 108px;
+    color: #ffffff;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .menu-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
